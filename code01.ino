@@ -1,5 +1,3 @@
-// code ที่ส่งมาครั้งแรก
-
 int ledPin = 2;
 int buzzer = 3;
 const int pingPin = 10;

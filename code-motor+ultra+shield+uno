@@ -24,11 +24,4 @@ void loop() {
   
   if(distance < 10){M2.run(FORWARD);}
   else{M2.run(RELEASE);}
-  
-  
-//  delay(2000);
-//  M2.run(BACKWARD);
-//  delay(2000);
-//  M2.run(RELEASE);
-//  delay(500);
 }

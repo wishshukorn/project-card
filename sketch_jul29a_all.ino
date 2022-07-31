@@ -52,7 +52,7 @@ Serial.print(cm2);
 Serial.print("cm");
 Serial.println();
 delay(100);
-if(distance < 10){M2.run(FORWARD);}
+if(distance < 10){M2.run(FORWARD);delay(500);M2.run(RELEASE);delay(1000);}
   else{M2.run(RELEASE);}
 }
 long microsecondsToCentimeters(long microseconds){
